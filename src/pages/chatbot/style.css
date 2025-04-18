@@ -1,0 +1,323 @@
+.chatbot,
+.chatbot * {
+  box-sizing: border-box;
+}
+.chatbot {
+  background: #fcf7f7;
+  height: 982px;
+  position: relative;
+  overflow: hidden;
+}
+.meet-oscar-the-online-safety-chatbot {
+  text-align: left;
+  position: absolute;
+  left: 572px;
+  top: 336px;
+  width: 921px;
+  height: 225px;
+}
+.meet-oscar-the-online-safety-chatbot-span {
+  color: #d14d60;
+  font-family: "HelveticaNeue-Bold", sans-serif;
+  font-size: 120px;
+  font-weight: 700;
+}
+.meet-oscar-the-online-safety-chatbot-span2 {
+  color: #ff9589;
+  font-family: "HelveticaNeue-Bold", sans-serif;
+  font-size: 120px;
+  font-weight: 700;
+}
+.meet-oscar-the-online-safety-chatbot-span3 {
+  color: #d14d60;
+  font-family: "GeorgiaPro-Bold", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+.vector-2 {
+  width: 508.66px;
+  height: 541.56px;
+  position: absolute;
+  left: 20px;
+  top: 260.55px;
+  transform: translate(5.33px, -9.98px);
+  overflow: visible;
+}
+.vector-1 {
+  width: 508.66px;
+  height: 541.56px;
+  position: absolute;
+  left: 52.54px;
+  top: 244.83px;
+  transform: translate(5.38px, -9.89px);
+  overflow: visible;
+}
+.chat {
+  width: 348px;
+  height: 348px;
+  position: absolute;
+  left: 175.28px;
+  top: 333.83px;
+  overflow: hidden;
+}
+.chat2 {
+  width: 95.83%;
+  height: 95.83%;
+  position: absolute;
+  right: 2.08%;
+  left: 2.08%;
+  bottom: 2.08%;
+  top: 2.08%;
+  overflow: visible;
+}
+.oscar-is-integrated-with-artificial-intelligence-to-answer-all-your-questions-related-to-cybersecurity-oscar-can-instantly-identify-phishing-and-other-scams-through-uploaded-photos-try-now {
+  color: #8e8e8e;
+  text-align: left;
+  font-family: "HelveticaNeue-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 572px;
+  top: 557px;
+  width: 748px;
+  height: 104px;
+}
+.group-10 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-5 {
+  border-radius: 0px;
+  width: 239.37px;
+  height: 61px;
+  position: absolute;
+  left: 577.19px;
+  top: 650px;
+  overflow: visible;
+}
+.open-chat {
+  color: #ffffff;
+  text-align: center;
+  font-family: "HelveticaNeue-Bold", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  position: absolute;
+  left: 572px;
+  top: 650px;
+  width: 250.18px;
+  height: 55.59px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.group-12 {
+  height: auto;
+  position: absolute;
+  left: 1136.97px;
+  top: 776.88px;
+  overflow: visible;
+}
+.cyber-aware {
+  color: #ffebd6;
+  text-align: left;
+  font-family: "HelveticaNeue-Bold", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  position: absolute;
+  left: 65px;
+  top: 34px;
+  width: 1164px;
+  height: 141px;
+}
+.rectangle-14 {
+  background: #ffffff;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #d9d9d9;
+  border-width: 3px;
+  width: 244px;
+  height: 67px;
+  position: absolute;
+  left: 1192px;
+  top: 675px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.rectangle-15 {
+  background: #ff9589;
+  border-radius: 30px;
+  width: 244px;
+  height: 45px;
+  position: absolute;
+  left: 1192px;
+  top: 755px;
+}
+.group-13 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-16 {
+  background: #ff9589;
+  border-radius: 30px;
+  width: 244.29px;
+  height: 44.91px;
+  position: absolute;
+  left: 1191.74px;
+  top: 754.97px;
+}
+.what-can-i-use-the-chatbot-for {
+  color: #ffffff;
+  text-align: center;
+  font-family: "HelveticaNeue-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  left: 1204px;
+  top: 764px;
+  width: 218px;
+  height: 25.2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.group-14 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-162 {
+  background: #ff9589;
+  border-radius: 30px;
+  width: 244.29px;
+  height: 44.91px;
+  position: absolute;
+  left: 1191.74px;
+  top: 813.03px;
+}
+.how-do-i-create-a-strong-password {
+  color: #ffffff;
+  text-align: center;
+  font-family: "HelveticaNeue-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  left: 1205px;
+  top: 822px;
+  width: 218px;
+  height: 25.2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.group-15 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-163 {
+  background: #ff9589;
+  border-radius: 30px;
+  width: 244.29px;
+  height: 44.91px;
+  position: absolute;
+  left: 1191.74px;
+  top: 871.09px;
+}
+.is-this-email-a-scam {
+  color: #ffffff;
+  text-align: center;
+  font-family: "HelveticaNeue-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  left: 1205px;
+  top: 881px;
+  width: 218px;
+  height: 25.2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.don-t-know-where-to-start-try-these-examples-below {
+  color: #000000;
+  text-align: center;
+  font-family: "HelveticaNeue-Bold", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+  left: 1208px;
+  top: 694px;
+  width: 209px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-bar {
+  position: absolute;
+  inset: 0;
+}
+.regular-bar {
+  background: #ffffff;
+  width: 1512px;
+  height: 114px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.forum {
+  width: 48.88px;
+  height: 68.19px;
+  position: absolute;
+  left: 1390px;
+  top: 25px;
+  overflow: visible;
+}
+.chatbot2 {
+  width: 76.26px;
+  height: 70.2px;
+  position: absolute;
+  left: 1229px;
+  top: 23px;
+  overflow: visible;
+}
+.learn {
+  width: 71px;
+  height: 86.63px;
+  position: static;
+}
+.analysis {
+  width: 71px;
+  height: 68px;
+  position: absolute;
+  left: 1097px;
+  top: 6px;
+  overflow: hidden;
+}
+.analysis2 {
+  width: 95.83%;
+  height: 87.51%;
+  position: absolute;
+  right: 2.08%;
+  left: 2.08%;
+  bottom: 6.25%;
+  top: 6.24%;
+  overflow: visible;
+}
+.learn2 {
+  width: 41.88px;
+  height: 11.63px;
+  position: absolute;
+  left: 1112px;
+  top: 81px;
+  overflow: visible;
+}
+.cyber-aware2 {
+  color: #d14d60;
+  text-align: left;
+  font-family: "HelveticaNeue-Bold", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  position: absolute;
+  left: 65px;
+  top: 34px;
+  width: 582px;
+  height: 70px;
+}
