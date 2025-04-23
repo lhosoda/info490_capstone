@@ -1,25 +1,763 @@
-.page-container {
+body {
+    font-family: "Helvetica Neue";
+}
+
+.home-page,
+.home-page * {
+    box-sizing: border-box;
+}
+
+.home-page {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     min-height: 100vh;
+    width: 100%;
+    position: relative;
+    padding-top: 6rem;
+}
+
+
+.introduction {
+    background-color: rgba(252, 247, 247, 1);
+}
+
+.intro {
     display: flex;
-    justify-content: center;
     align-items: center;
-    background-color: #f5f5f5;
 }
 
-.content {
-    text-align: center;
-    padding: 2rem;
+.intro-img {
+    position: relative;
+    bottom: -50px;
+}
+
+.introduction h1 {
+    padding-top: 8rem;
+    padding-left: 3rem;
+    color: #D14D60;
+    text-align: left;
+    position: relative;
+    font-size: 65px;
+    margin: 0;
+
+}
+
+.introduction p {
+    margin: 1rem;
+    margin-left: 3rem;
+    /* color: #FF7F51; */
+    color: rgb(88, 88, 88);
+    text-align: left;
+    position: relative;
+    font-size: 30px;
+    /* font-weight: lighter; */
+}
+
+.introduction button {
+    background-color: #D14D60;
+    color: white;
+    margin: .5rem 0 0 3rem;
+    padding: 15px 30px;
+    border: solid;
+    border-color: #D14D60;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: 550;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.introduction button:hover {
     background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #D14D60;
+    border: solid;
+    border-color: #D14D60;
+
 }
 
-h1 {
-    color: #333;
-    margin-bottom: 1rem;
+.down-arrow {
+    display: block;
+    margin: 0 auto;
+    padding: 3rem;
+    padding-top: 5rem;
 }
 
-p {
-    color: #666;
-    font-size: 1.1rem;
+.shape-divider1 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    background-color: rgba(252, 247, 247, 1);
+}
+
+.shape-divider1 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 106px;
+}
+
+.shape-divider1 .shape-fill {
+    fill: #E76C70;
+}
+
+.fraud-stat {
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem;
+    padding-bottom: 10rem;
+    background-color: #E76C70;
+    background-image: url('/Users/sungheepark/Documents/uw24-25/sp25/info490_capstone copy/public/imgs/seattle-skyline.png');
+    background-size: cover;
+}
+
+.fraud-stat h1 {
+    color: #FFEBD6;
+    font-size: 65px;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    text-align: right;
+    width: 70%;
+}
+
+.shape-divider2 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: 1;
+}
+
+.shape-divider2 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 313px;
+}
+
+.shape-divider2 .shape-fill {
+    fill: rgba(255, 149, 137, 1);
+}
+
+.why-us {
+    background-image: url('/Users/sungheepark/Documents/uw24-25/sp25/info490_capstone copy/public/imgs/old-man.png');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding-bottom: 30%;
+    position: relative;
+    z-index: 1;
+}
+
+.wave-container {
+    position: relative;
+    /* margin-bottom: 10%; */
+}
+
+.wave-title {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 64px;
+    color: #D14D60;
+    ;
+    /* Or your preferred text color */
+    padding: 0 2rem;
+    margin-bottom: 0;
+}
+
+.why-us-desc {
+    display: flex;
+    margin: 2rem;
+}
+
+.why-us-desc p {
+    font-size: 30px;
+    margin: 2rem;
+}
+
+.highlight-number {
+    color: #D14D60;
+    font-weight: 600;
+}
+
+.shape-divider3 {
+    position: relative;
+    /* Change from relative to absolute */
+    bottom: 310px;
+    /* Adjust this negative value to control overlap amount */
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: 2;
+    /* Higher than why-us */
+}
+
+.shape-divider3 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 313px;
+}
+
+.shape-divider3 .shape-fill {
+    fill: #170001;
+}
+
+
+
+.wave-container-feat {
+    position: relative;
+    margin-bottom: -25rem;
+}
+
+.wave-title-feat {
+    position: relative;
+    bottom: 450px;
+    left: 0;
+    text-align: center;
+    font-size: 64px;
+    color: #FAF9F6;
+    padding: 0 2rem;
+    z-index: 3;
+    margin-bottom: 0;
+
+}
+
+.our-features {
+    background-color: #170001;
+    color: #FAF9F6;
+    font-size: 30px;
+}
+
+.our-features h1 {
+    width: 50%;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.features {
+    display: flex;
+    margin: 0 12rem 0 12rem;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+.feature1,
+.feature2,
+.feature3 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.feature-desc {
+    margin: 0 0 2rem 2rem;
+}
+
+.feature-img {
+    margin-top: 0rem;
+}
+
+.feature-desc h3,
+.feature-desc p {
+    margin-top: 0;
+    color: #FAF9F6;
+}
+
+.feature-desc h3 {
+    font-weight: 400;
+}
+
+.feature-desc p {
+    font-weight: normal;
+    font-size: 1.6rem;
+}
+
+
+/* footer */
+
+.home-footer {
+    background-color: #170001;
+}
+
+.home-footer p {
+    text-align: center;
+    color: #FAF9F6;
+    margin: 0;
+}
+
+/* Media Queries */
+
+@media (max-width: 576px) {
+
+    .macbook-img {
+        width: 400px;
+        height: auto;
+        display: none;
+    }
+
+    .introduction h1 {
+        font-size: 2.5rem;
+    }
+
+    .introduction p {
+        font-size: 1.2rem;
+    }
+
+    .fraud-stat {
+        padding-bottom: 2rem;
+    }
+
+    .fraud-stat h1 {
+        font-size: 2.5rem;
+        width: 80%;
+        margin-top: 1.5rem;
+    }
+
+    .wave-title {
+        position: absolute;
+        bottom: 6rem;
+        font-size: 2.5rem;
+    }
+
+    .why-us {
+        background-position: center;
+    }
+
+    .why-us-desc {
+        margin: -2rem 3rem 3rem 3rem;
+        padding-bottom: 2rem;
+    }
+
+    .why-us-desc p {
+        font-size: 1.5rem;
+        margin-top: -.5rem;
+        padding-bottom: 2rem;
+        margin-bottom: 0;
+    }
+
+    .our-features h1 {
+        width: 60%;
+        margin: 1rem auto;
+        padding-bottom: 1rem;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .features {
+        width: 80%;
+        margin: 0 4rem 0 4rem;
+    }
+
+    .feature-desc h3 {
+        font-size: 1.7rem;
+        font-weight: 500;
+    }
+
+    .feature-desc p {
+        font-size: 1.4rem;
+    }
+
+
+    .shape-divider1,
+    .shape-divider2,
+    .shape-divider3 {
+        transition: height 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+
+    .shape-divider1 svg,
+    .shape-divider2 svg,
+    .shape-divider3 svg {
+        transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+
+}
+
+@media (min-width: 576px) {
+
+    .macbook-img {
+        width: 400px;
+        height: auto;
+    }
+
+    .introduction h1 {
+        font-size: 2.5rem;
+    }
+
+    .introduction p {
+        font-size: 1.2rem;
+    }
+
+    .fraud-stat {
+        padding-bottom: 2rem;
+    }
+
+    .fraud-stat h1 {
+        font-size: 2.5rem;
+        width: 80%;
+        margin-top: 1.5rem;
+    }
+
+    .wave-title {
+        position: absolute;
+        bottom: 6rem;
+        font-size: 2.5rem;
+    }
+
+    .why-us {
+        background-position: center;
+    }
+
+    .why-us-desc {
+        margin: -2rem 3rem 3rem 3rem;
+        padding-bottom: 2rem;
+    }
+
+    .why-us-desc p {
+        font-size: 1.5rem;
+        margin-top: -.5rem;
+        padding-bottom: 2rem;
+        margin-bottom: 0;
+    }
+
+    .our-features h1 {
+        width: 60%;
+        margin: 1rem auto;
+        padding-bottom: 1rem;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .features {
+        width: 80%;
+        margin: 0 4rem 0 4rem;
+    }
+
+    .feature-desc h3 {
+        font-size: 1.7rem;
+        font-weight: 500;
+    }
+
+    .feature-desc p {
+        font-size: 1.4rem;
+    }
+
+
+    .shape-divider1,
+    .shape-divider2,
+    .shape-divider3 {
+        transition: height 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+
+    .shape-divider1 svg,
+    .shape-divider2 svg,
+    .shape-divider3 svg {
+        transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+
+}
+
+@media (min-width:768px) {
+
+    .macbook-img {
+        width: 400px;
+        height: auto;
+    }
+
+    .introduction h1 {
+        font-size: 2.5rem;
+    }
+
+    .introduction p {
+        font-size: 1.5rem;
+    }
+
+    .fraud-stat {
+        padding-bottom: 2rem;
+    }
+
+    .fraud-stat h1 {
+        font-size: 3rem;
+        width: 80%;
+        margin-top: 1.5rem;
+    }
+
+    .wave-title {
+        position: absolute;
+        bottom: 50px;
+        font-size: 3rem;
+    }
+
+    .why-us {
+        background-position: center;
+
+    }
+
+    .why-us-desc {
+        margin: 0 3rem 2rem 3rem;
+        /* margin-bottom: 2rem; */
+    }
+
+    .why-us-desc p {
+        font-size: 1.5rem;
+        margin-top: -.5rem;
+        padding-bottom: 2rem;
+        margin-bottom: 0;
+    }
+
+    .our-features h1 {
+        width: 60%;
+        margin: 1rem auto;
+        padding-bottom: 1rem;
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .features {
+        width: 80%;
+        margin: 0 4rem 0 4rem;
+    }
+
+    .feature-desc h3 {
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+
+    .shape-divider1,
+    .shape-divider2,
+    .shape-divider3 {
+        transition: height 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+
+    .shape-divider1 svg,
+    .shape-divider2 svg,
+    .shape-divider3 svg {
+        transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+}
+
+@media (min-width: 992px) {
+
+    .intro-img {
+        position: relative;
+        overflow: clip;
+        width: 530px;
+    }
+
+    .introduction h1 {
+        font-size: 3rem;
+        width: 100%;
+    }
+
+    .introduction p {
+        font-size: 1.6rem;
+        width: 100%
+    }
+
+    .fraud-stat h1 {
+        font-size: 3.5rem;
+    }
+
+    .wave-title {
+        font-size: 3.5rem;
+        bottom: 40px;
+    }
+
+    .why-us {
+        background-position: center;
+    }
+
+    .why-us-desc {
+        margin: -1rem 3rem 2rem 3rem;
+    }
+
+    .why-us-desc p {
+        font-size: 1.8rem;
+        margin: 2rem;
+    }
+
+    .features {
+        margin: 0 6rem 0 6rem;
+
+    }
+
+    .our-features h1 {
+        font-size: 3.5rem;
+    }
+
+    .ourt-features h3 {
+        font-weight: 500;
+    }
+
+    .shape-divider1,
+    .shape-divider2,
+    .shape-divider3 {
+        transition: height 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+
+    .shape-divider1 svg,
+    .shape-divider2 svg,
+    .shape-divider3 svg {
+        transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    .macbook-img, .intro-img {
+        width: 550px;
+    }
+
+    .introduction h1 {
+        font-size: 3.75rem;
+    }
+
+    .introduction p {
+        font-size: 2rem;
+    }
+
+    .fraud-stat h1 {
+        font-size: 4rem;
+        width: 70%;
+        margin-right: 3rem;
+        margin-top: 4rem;
+    }
+
+    .wave-title {
+        font-size: 4rem;
+        bottom: 0;
+    }
+
+    .why-us {
+        background-position: center;
+        padding-bottom: 25%;
+    }
+
+    .why-us-desc {
+        margin: 4rem 6rem 0rem 6rem;
+
+    }
+
+    .why-us-desc p {
+        font-size: 2rem;
+        margin: 2rem;
+    }
+
+    .features {
+        margin: 0 12rem 0 12rem;
+    }
+
+    .our-features h1 {
+        font-size: 4rem;
+    }
+
+    .our-features h3 {
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    .our-features p {
+        font-size: 1.6rem;
+    }
+
+    .shape-divider1,
+    .shape-divider2,
+    .shape-divider3 {
+        transition: height 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+
+    .shape-divider1 svg,
+    .shape-divider2 svg,
+    .shape-divider3 svg {
+        transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+
+}
+
+@media (min-width: 1400px) {
+
+    .macbook-img, .intro-img {
+        width: 700px;
+        height: auto;
+    }
+
+    .introduction h1 {
+        font-size: 4rem;
+    }
+
+    .introduction p {
+        font-size: 2rem;
+        width: 100%
+    }
+
+    .fraud-stat h1 {
+        font-size: 4rem;
+        width: 70%;
+        margin-right: 2rem;
+        margin-top: 6rem;
+    }
+
+    .wave-title {
+        font-size: 4rem;
+        bottom: 0;
+    }
+
+    .why-us {
+        background-position: center;
+        padding-bottom: 25%;
+    }
+
+    .why-us-desc {
+        margin: 4rem 6rem 0rem 6rem;
+
+    }
+
+    .why-us-desc p {
+        font-size: 2rem;
+        margin: 2rem;
+    }
+
+    .features {
+        margin: 0 12rem 0 12rem;
+    }
+
+    .our-features h1 {
+        font-size: 4rem;
+        width: 70%;
+    }
+
+    .our-features h3 {
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    .our-features p {
+        font-size: 1.6rem;
+    }
+
+    .shape-divider1,
+    .shape-divider2,
+    .shape-divider3 {
+        transition: height 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+
+    .shape-divider1 svg,
+    .shape-divider2 svg,
+    .shape-divider3 svg {
+        transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+
 }
