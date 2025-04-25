@@ -29,3 +29,9 @@
     margin: 0;
     text-align: center;
 }
+
+.chatbot {
+    width: 71px;
+    height: 86.63px;
+    position: static;
+}

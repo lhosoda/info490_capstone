@@ -10,10 +10,10 @@ const NavBar = () => {
                         <img className="logo" src="/imgs/logo.svg" alt="Logo" />
                     </Link>
                     <div className="navigation">
-                        <img className="learn" src="/imgs/learn.svg" alt="Learn" />
-                        <img className="chatbot" src="/imgs/chatbot.svg" alt="Chatbot" />
+                        <img className="learn-nav" src="/imgs/learn.svg" alt="Learn" />
+                        <img className="chatbot-nav" src="/imgs/chatbot.svg" alt="Chatbot" />
                         <Link to="/forum">
-                            <img className="forum" src="/imgs/forum.svg" alt="Forum" />
+                            <img className="forum-nav" src="/imgs/forum.svg" alt="Forum" />
                         </Link>
                     </div>
                 </div>
