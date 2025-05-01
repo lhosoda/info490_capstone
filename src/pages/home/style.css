@@ -110,7 +110,7 @@ body {
     padding: 2rem;
     padding-bottom: 10rem;
     background-color: #E76C70;
-    background-image: url('/Users/sungheepark/Documents/uw24-25/sp25/info490_capstone copy/public/imgs/seattle-skyline.png');
+    background-image: url('../../../public/imgs/seattle-skyline.png');
     background-size: cover;
 }
 
@@ -146,7 +146,8 @@ body {
 }
 
 .why-us {
-    background-image: url('/Users/sungheepark/Documents/uw24-25/sp25/info490_capstone copy/public/imgs/old-man.png');
+    background-image: url('../../../public/imgs/old-man.png');
+    
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
