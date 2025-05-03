@@ -11,7 +11,9 @@ const NavBar = () => {
                     </Link>
                     <div className="navigation">
                         <img className="learn-nav" src="/imgs/learn.svg" alt="Learn" />
-                        <img className="chatbot-nav" src="/imgs/chatbot.svg" alt="Chatbot" />
+                        <Link to="/chatbot">
+                            <img className="chatbot-nav" src="/imgs/chatbot.svg" alt="Chatbot" />
+                        </Link>
                         <Link to="/forum">
                             <img className="forum-nav" src="/imgs/forum.svg" alt="Forum" />
                         </Link>

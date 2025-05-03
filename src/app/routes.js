@@ -8,6 +8,7 @@ import Forum from "../pages/forum";
 import Modules from "../pages/modules";
 import Home from '../pages/home';
 import NavBar from '../pages/navbar';
+import Oscar from '../pages/oscar';
 
 function AppRoutes() {
   return (
@@ -20,6 +21,7 @@ function AppRoutes() {
         <Route path="/chatbot" element={<Chatbot />} />
         <Route path="/forum" element={<Forum />} />
         <Route path="/modules" element={<Modules />} />
+        <Route path="/oscar" element={<Oscar />} />
         <Route path="*" element={<Home />} />
       </Routes>
 

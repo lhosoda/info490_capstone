@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./style.css";
 
 // Image imports
@@ -14,7 +15,7 @@ const Chatbot = () => {
                 <span>
                     <span className="meet-oscar-the-online-safety-chatbot-span">Meet</span>
                     <span className="meet-oscar-the-online-safety-chatbot-span2">
-                        Oscar,<br />
+                         Oscar,<br />
                     </span>
                     <span className="meet-oscar-the-online-safety-chatbot-span3">
                         the online safety chatbot
@@ -35,9 +36,12 @@ const Chatbot = () => {
                 and other scams through uploaded photos. Try Now!
             </div>
 
-            <img className="rectangle-5" src={group10} alt="Rectangle 5" />
+            {/* <img className="rectangle-5" src={group10} alt="Rectangle 5" /> */}
 
-            <div className="open-chat">Open Chat</div>
+            <button className="open-chat">
+                <Link to="/oscar">Open Chat</Link>
+                </button>
+            {/* <div className="open-chat">Open Chat</div> */}
             <div className="cyber-aware">CYBER AWARE</div>
             <div className="rectangle-14"></div>
             <div className="rectangle-15"></div>
