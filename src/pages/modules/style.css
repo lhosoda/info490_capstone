@@ -1,0 +1,184 @@
+.video-modules,
+.video-modules * {
+  box-sizing: border-box;
+}
+
+.video-modules {
+  background: #fcf7f7;
+  height: 982px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* ========== VIDEO ========== */
+.video-container {
+  position: absolute;
+  top: 221px;
+  left: 400px;
+  width: 1000px;
+  height: 570px;
+  background: #000;
+}
+
+.video-frame {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* ========== HEADER TITLE ========== */
+.cyber-aware-learning-modules-module-1 {
+  text-align: left;
+  font-family: "HelveticaNeue-Bold", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  position: absolute;
+  left: 23px;
+  top: 135px;
+  width: 1435px;
+  height: 141px;
+}
+
+.cyber-aware-learning-modules-module-1-span {
+  color: #d14d60;
+  font-size: 50px;
+}
+
+.cyber-aware-learning-modules-module-1-span2 {
+  color: #000000;
+  font-size: 50px;
+}
+
+/* ========== TRANSCRIPT ========== */
+.transcript-lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua-ut-enim-ad-minim-veniam-quis-nostrud-exercitation-ullamco {
+  color: #000000;
+  text-align: left;
+  font-family: "HelveticaNeue-Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  position: absolute;
+  left: 390px;
+  top: 877px;
+  width: 920px;
+  height: 152px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* ========== MODULE BUTTONS ========== */
+.module-clickable {
+  position: absolute;
+  width: 354px;
+  height: 79px;
+  cursor: pointer;
+}
+
+.module-1-clickable {
+  top: 221px;
+  left: 22px;
+}
+
+.module-2-clickable {
+  top: 343px;
+  left: 22px;
+}
+
+.module-3-clickable {
+  top: 465px;
+  left: 22px;
+}
+
+.module-4-clickable {
+  top: 587px;
+  left: 22px;
+}
+
+.module-clickable img {
+  width: 354px;
+  height: 79px;
+  border-radius: 0px;
+  object-fit: cover;
+}
+
+/* ========== MODULE TEXT ========== */
+.module-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-family: "HelveticaNeue-Bold", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.module-clickable:hover {
+  opacity: 0.9;
+  transform: scale(1.02);
+  transition: all 0.2s ease-in-out;
+}
+
+/* ========== LANGUAGE BOX ========== */
+.rectangle-37 {
+  background: #ffffff;
+  border-radius: 25px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 352px;
+  height: 196px;
+  position: absolute;
+  left: 22px;
+  top: 733px;
+}
+
+.rectangle-36 {
+  background: #ffffff;
+  border-radius: 26px;
+  border-style: solid;
+  border-color: #8e8e8e;
+  border-width: 2px;
+  width: 301px;
+  height: 51px;
+  position: absolute;
+  left: 47px;
+  top: 853px;
+}
+
+.current-transcript-language-english {
+  text-align: left;
+  font-family: "HelveticaNeue-Bold", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  position: absolute;
+  left: 57px;
+  top: 760px;
+  width: 339px;
+  height: 203px;
+}
+
+.current-transcript-language-english-span {
+  color: #000000;
+}
+
+.current-transcript-language-english-span2 {
+  color: #d14d60;
+}
+
+.change-language {
+  color: #8e8e8e;
+  text-align: center;
+  font-family: "HelveticaNeue-Regular", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  position: absolute;
+  left: 28px;
+  top: 857px;
+  width: 339px;
+  height: 203px;
+}
